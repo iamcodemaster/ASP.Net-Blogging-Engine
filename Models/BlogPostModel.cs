@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using BloggingEngine.DataAccess;
 
 public class BlogPostModel
 {  
@@ -11,5 +12,5 @@ public class BlogPostModel
 }
 
 public class BlogPostList {
-    public List<BlogPostModel> BlogPosts { get; set; }
+    public List<Post> BlogPosts { get; set; }
 }

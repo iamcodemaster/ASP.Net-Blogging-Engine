@@ -1,0 +1,11 @@
+@model BlogPostList
+
+@foreach(var item in Model.BlogPosts) {
+  <div>
+      <h2>@item.Title</h2>
+      <p>
+        <a asp-controller="blog" asp-route-id="@item.Id" asp-action="post">show</a>
+        <a asp-controller="Blog" asp-route-id="@item.Id" asp-action="Edit">edit</a>
+      </p>
+  </div>
+}

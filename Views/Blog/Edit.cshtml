@@ -7,4 +7,7 @@
     <div>
         <textarea asp-for="@Model.Content"></textarea>
     </div>
+    @using (Html.BeginForm(FormMethod.Post)) {
+        <button asp-controller="blog" asp-route-id="@Model.Id" asp-action="edit" type="submit" class="btn btn-danger" value="Save">Save</button>
+    }
 </div>

@@ -33,3 +33,4 @@
 /Users/codemaster/Documents/ASP/BloggingEngine/obj/Debug/netcoreapp2.1/BloggingEngine.csproj.CopyComplete
 /Users/codemaster/Documents/ASP/BloggingEngine/obj/Debug/netcoreapp2.1/Razor/Views/Blog/Edit.g.cshtml.cs
 /Users/codemaster/Documents/ASP/BloggingEngine/obj/Debug/netcoreapp2.1/Razor/Views/Blog/Post.g.cshtml.cs
+/Users/codemaster/Documents/ASP/BloggingEngine/obj/Debug/netcoreapp2.1/Razor/Views/Blog/Delete.g.cshtml.cs

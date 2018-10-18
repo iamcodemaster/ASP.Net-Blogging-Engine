@@ -4,9 +4,13 @@
   <div>
       <h2>@item.Title</h2>
       <p>@item.Content</p>
-      <p>
-        <a asp-controller="blog" asp-route-id="@item.Id" asp-action="post">show</a>
-        <a asp-controller="Blog" asp-route-id="@item.Id" asp-action="Edit">edit</a>
-      </p>
+
+      <a class="btn btn-success" asp-controller="blog" asp-route-id="@item.Id" asp-action="post">show</a>
+      
+      <a class="btn btn-primary" asp-controller="blog" asp-route-id="@item.Id" asp-action="edit">edit</a>
+
+      @using (Html.BeginForm(FormMethod.Post)) {
+        <button asp-controller="blog" asp-route-id="@item.Id" asp-action="delete" type="submit" class="btn btn-danger" value="Delete">Delete</button>
+      }
   </div>
 }

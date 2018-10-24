@@ -1,5 +1,11 @@
 @model BlogPostList
 
+<style>
+  form {
+    display: inline;
+  }
+</style>
+
 @foreach(var item in Model.BlogPosts) {
   <div>
       <h2>@item.Title</h2>

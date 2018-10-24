@@ -1,13 +1,16 @@
 @model BlogPostModel
 
 <div>
-    <h1>@Model.Id</h1>
     <h2>@Model.Title</h2>
     <p>@Model.Content</p>
       <p>
-        <a href="#">@Model.Author_id</a>
+        <a href="#">@Model.Author.First_name @Model.Author.Last_name</a>
       </p>
       <p>
         <a href="#">@Model.Post_date</a>
       </p>
 </div>
+
+@foreach(var comment in Model.Comments) {
+  <p>@comment.Content</p>
+}

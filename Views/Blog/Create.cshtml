@@ -31,5 +31,5 @@
     <input asp-for="@Model.Title" />
     <input type="date" asp-for="@Model.Post_date" />
     <textarea asp-for="@Model.Content"></textarea>
-    <button asp-controller="blog" asp-route-id="@Model.Id" asp-action="edit" type="submit" class="btn btn-success" value="Save">Save</button>
+    <button asp-controller="blog" asp-action="create" type="submit" class="btn btn-success" value="Save">Publish post</button>
 }

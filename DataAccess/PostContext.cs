@@ -24,25 +24,28 @@ namespace BloggingEngine.DataAccess
   public class Post
   {  
     public int Id { get; set; }
-    public string Title { get; set; }
-    public string Content { get; set; }
+    public string PostTitle { get; set; }
+    public string PostContent { get; set; }
     public int AuthorId { get; set; }
-    public Author Author { get; set; }
-    public string Post_date { get; set; }
+    public Author PostAuthor { get; set; }
+    public string PostDate { get; set; }
     public List<PostComment> Comments { get; set; }
+    public Comment Comment { get; set; }
+
   }
 
   public class Author
   {  
     public int Id { get; set; }
-    public string First_name { get; set; }
-    public string Last_name { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
   }
 
   public class PostComment {
     public int Id { get; set; }
-    public string Author { get; set; }
-    public string Content { get; set; }
+    public string CommentAuthor { get; set; }
+    public string CommentContent { get; set; }
+    public int PostId { get; set; }
   }
 
 }

@@ -22,7 +22,8 @@ namespace BloggingEngine.Controllers
         [Route("blog")]
         [HttpGet()]
         public IActionResult Index() {
-            var posts = _postContext.Posts.ToList();
+            // get posts in descending order to see the newest posts first
+            var posts = _postContext.Posts.OrderByDescending(p => p.Id).ToList();
             var blogpostListModel = new BlogPostList();
             blogpostListModel.BlogPosts = posts;
             return View(blogpostListModel);
@@ -31,20 +32,32 @@ namespace BloggingEngine.Controllers
         [Route("blog/create")]
         [HttpGet()]
         public IActionResult Create() {
-            var blogpostModel = new BlogPostModel();
-            return View(blogpostModel);
+            var blogpostWithAuthor = new PostWithAuthor();
+            return View(blogpostWithAuthor);
         }
 
         [Route("blog/create")]
         [HttpPost]
-        public IActionResult Create(BlogPostModel item) {
-            var post = new BloggingEngine.DataAccess.Post() {
-                Id = item.Id,
-                Title = item.Title,
-                Content = item.Content,
-                AuthorId = item.AuthorId,
-                Post_date = item.Post_date
+        public IActionResult Create(PostWithAuthor item) {
+            // Create new author
+            var author = new BloggingEngine.DataAccess.Author() {
+                FirstName = item.Author.FirstName,
+                LastName = item.Author.LastName
             };
+            // Add author to database
+            _postContext.Authors.Add(author);
+            _postContext.SaveChanges();
+            // Get the id of the last added record
+            var lastAddedAuthorId = author.Id;
+
+            // Create new blog post
+            var post = new BloggingEngine.DataAccess.Post() {
+                PostTitle = item.Post.PostTitle,
+                PostContent = item.Post.PostContent,
+                AuthorId = lastAddedAuthorId,
+                PostDate = item.Post.PostDate
+            };
+            // Add blog post to database
             _postContext.Posts.Add(post);
             _postContext.SaveChanges();
 
@@ -54,29 +67,36 @@ namespace BloggingEngine.Controllers
         [Route("blog/post/{id}")]
         [HttpGet()]
         public IActionResult Post([FromRoute]int id) {
+            // get the post by id from query param
             var post = _postContext.Posts.Find(id);
+            // send user back to index if post does not exist
             if (post == null)
             {
                 return RedirectToAction("Index");
             }
 
+            // get the author of the post
             var author = _postContext.Authors.Find(post.AuthorId);
 
-            var comments = _postContext.Comments.ToList();
+            // get the comments of the post by post id
+            var postComments = _postContext.Comments.Where(c => c.PostId == post.Id);
+            var comments = postComments.ToList();
 
+            // build author model
             var authorModel = new Author() {
                 Id = author.Id,
-                First_name = author.First_name,
-                Last_name = author.Last_name
+                FirstName = author.FirstName,
+                LastName = author.LastName
             };
 
+            // build blog post model
             var blogpostModel = new BlogPostModel() {
                 Id = post.Id,
-                Title = post.Title,
-                Content = post.Content,
+                PostTitle = post.PostTitle,
+                PostContent = post.PostContent,
                 AuthorId = post.AuthorId,
-                Author = authorModel,
-                Post_date = post.Post_date,
+                PostAuthor = authorModel,
+                PostDate = post.PostDate,
                 Comments = comments
             };
             return View(blogpostModel);
@@ -89,6 +109,20 @@ namespace BloggingEngine.Controllers
             _postContext.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        [Route("blog/post/{id}/comment")]
+        [HttpPost]
+        public IActionResult Comment([FromRoute] int id, BlogPostModel item) {
+            var comment = new BloggingEngine.DataAccess.PostComment() {
+                CommentAuthor = item.Comment.CommentAuthor,
+                CommentContent = item.Comment.CommentContent,
+                PostId = id
+            };
+            _postContext.Comments.Add(comment);
+            _postContext.SaveChanges();
+
+            return RedirectToAction("Post");
+        }
         
         [Route("blog/edit/{id}")]
         [HttpGet()]
@@ -100,10 +134,10 @@ namespace BloggingEngine.Controllers
             }
             var blogpostModel = new BlogPostModel() {
                 Id = post.Id,
-                Title = post.Title,
-                Content = post.Content,
+                PostTitle = post.PostTitle,
+                PostContent = post.PostContent,
                 AuthorId = post.AuthorId,
-                Post_date = post.Post_date
+                PostDate = post.PostDate
             };
             return View(blogpostModel);
         }
@@ -119,9 +153,9 @@ namespace BloggingEngine.Controllers
                 return RedirectToAction("Index");
             }
 
-            post.Title = item.Title;
-            post.Content = item.Content;
-            post.Post_date = item.Post_date;
+            post.PostTitle = item.PostTitle;
+            post.PostContent = item.PostContent;
+            post.PostDate = item.PostDate;
 
             _postContext.Posts.Update(post);
             _postContext.SaveChanges();

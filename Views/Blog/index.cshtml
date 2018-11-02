@@ -4,16 +4,23 @@
   form {
     display: inline;
   }
+
 </style>
+
+<div style="margin: 3em 0" class="row">
+  <div class="col 12">
+    <a style="width: 100%" class="btn btn-primary" asp-controller="blog" asp-action="create">Create New Post</a>
+  </div>
+</div>
 
 @foreach(var item in Model.BlogPosts) {
   <div>
-      <h2>@item.Title</h2>
-      <p>@item.Content</p>
+      <h2>@item.PostTitle</h2>
+      <p>@item.PostContent</p>
 
       <a class="btn btn-success" asp-controller="blog" asp-route-id="@item.Id" asp-action="post">show</a>
       
-      <a class="btn btn-primary" asp-controller="blog" asp-route-id="@item.Id" asp-action="edit">edit</a>
+      <a style="color: #fff" class="btn btn-warning" asp-controller="blog" asp-route-id="@item.Id" asp-action="edit">edit</a>
 
       @using (Html.BeginForm(FormMethod.Post)) {
         <button asp-controller="blog" asp-route-id="@item.Id" asp-action="delete" type="submit" class="btn btn-danger" value="Delete">Delete</button>

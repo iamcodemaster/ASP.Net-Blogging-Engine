@@ -7,19 +7,39 @@
     margin-top: 10px;
   }
 
-  form {
+  .users, form {
     margin-top: 3em;
+  }
+
+  #new, #old {
+    display: none;
   }
 </style>
 
+<div class="users">
+  <a href="#" id="existingUser" class="btn btn-primary">Existing Author</a>
+  <a href="#" id="newUser" class="btn btn-primary">New Author</a>
+</div>
+
 <form asp-controller="Blog" asp-action="Post" method="post">
-  <div class="form-group">
-    <label for="firstname">First Name</label>
-    <input asp-for="@Model.Author.FirstName" class="form-control" id="firstname" placeholder="Your first name">
+  <div id="old" class="form-group">
+    <label for="name">Name</label>
+    <select asp-for="@Model.Author.Id" class="form-control" id="name">
+      <option value="-1">-- Select Author --</option>
+      @foreach(var author in @Model.AuthorList) {
+        <option value="@author.Id">@author.FirstName @author.LastName</option>
+      }
+    </select>
   </div>
-  <div class="form-group">
-    <label for="lastname">Last Name</label>
-    <input asp-for="@Model.Author.LastName" class="form-control" id="lastname" placeholder="Your last name">
+  <div id="new">
+    <div class="form-group">
+      <label for="firstname">First Name</label>
+      <input asp-for="@Model.Author.FirstName" class="form-control" id="firstname" placeholder="Your first name">
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name</label>
+      <input asp-for="@Model.Author.LastName" class="form-control" id="lastname" placeholder="Your last name">
+    </div>
   </div>
   <div class="form-group">
     <label for="title">Post Title</label>
@@ -35,3 +55,21 @@
   </div>
   <button asp-controller="blog" asp-action="create" type="submit" class="btn btn-success" value="Save">Publish post</button>
 </form>
+
+<script>
+  var existingUser = document.getElementById('existingUser');
+  var newUser = document.getElementById('newUser');
+  
+  existingUser.onclick = function(e) {
+    e.preventDefault();
+    document.getElementById('old').style.display = "block";
+    document.getElementById('new').style.display = "none";
+  }
+
+  newUser.onclick = function(e) {
+    e.preventDefault();
+    document.getElementById('name').value = -1;
+    document.getElementById('new').style.display = "block";
+    document.getElementById('old').style.display = "none";
+  }
+</script>

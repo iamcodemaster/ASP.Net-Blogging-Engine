@@ -33,7 +33,7 @@ namespace BloggingEngine
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<PostContext>(opt => opt.UseSqlite(@"Data Source=/Users/codemaster/blog_db.db"));
+            services.AddDbContext<PostContext>(opt => opt.UseSqlite(@"Data Source=blog_db.db"));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

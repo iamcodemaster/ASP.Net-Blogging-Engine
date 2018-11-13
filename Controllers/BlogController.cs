@@ -32,35 +32,53 @@ namespace BloggingEngine.Controllers
         [Route("blog/create")]
         [HttpGet()]
         public IActionResult Create() {
-            var blogpostWithAuthor = new PostWithAuthor();
+            var authors = _postContext.Authors.ToList();
+            var blogpostWithAuthor = new PostWithAuthor() {
+                AuthorList = authors
+            };
             return View(blogpostWithAuthor);
         }
 
         [Route("blog/create")]
         [HttpPost]
         public IActionResult Create(PostWithAuthor item) {
-            // Create new author
-            var author = new BloggingEngine.DataAccess.Author() {
-                FirstName = item.Author.FirstName,
-                LastName = item.Author.LastName
-            };
-            // Add author to database
-            _postContext.Authors.Add(author);
-            _postContext.SaveChanges();
-            // Get the id of the last added record
-            var lastAddedAuthorId = author.Id;
+            // If author exists
+            if(item.Author.Id != -1) {
+                // Create new blog post with existing author
+                var post = new BloggingEngine.DataAccess.Post() {
+                    PostTitle = item.Post.PostTitle,
+                    PostContent = item.Post.PostContent,
+                    AuthorId = item.Author.Id,
+                    PostDate = item.Post.PostDate
+                };    
+                // Add blog post to database
+                _postContext.Posts.Add(post);
+                _postContext.SaveChanges();
 
-            // Create new blog post
-            var post = new BloggingEngine.DataAccess.Post() {
-                PostTitle = item.Post.PostTitle,
-                PostContent = item.Post.PostContent,
-                AuthorId = lastAddedAuthorId,
-                PostDate = item.Post.PostDate
-            };
-            // Add blog post to database
-            _postContext.Posts.Add(post);
-            _postContext.SaveChanges();
-
+            // If author does not exist
+            } else {
+                // Create new author
+                var author = new BloggingEngine.DataAccess.Author() {
+                    FirstName = item.Author.FirstName,
+                    LastName = item.Author.LastName
+                };
+                // Add author to database
+                _postContext.Authors.Add(author);
+                _postContext.SaveChanges();
+                // Get the id of the last added record
+                var lastAddedAuthorId = author.Id;
+                // Create new blog post
+                var post = new BloggingEngine.DataAccess.Post() {
+                    PostTitle = item.Post.PostTitle,
+                    PostContent = item.Post.PostContent,
+                    AuthorId = lastAddedAuthorId,
+                    PostDate = item.Post.PostDate
+                };
+                // Add blog post to database
+                _postContext.Posts.Add(post);
+                _postContext.SaveChanges();
+            }
+            
             return RedirectToAction("Index");
         }
 

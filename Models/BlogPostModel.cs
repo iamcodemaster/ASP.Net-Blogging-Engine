@@ -35,6 +35,7 @@ public class Comment {
 
 // To create a blog post and add a new author
 public class PostWithAuthor {
+    public List<Author> AuthorList { get; set; }
     public Author Author { get; set; }
     public BlogPostModel Post { get; set; }
 }

@@ -16,7 +16,18 @@
 @foreach(var item in Model.BlogPosts) {
   <div>
       <h2>@item.PostTitle</h2>
-      <p>@item.PostContent</p>
+
+      @{
+
+        string postContentTrimmed = @item.PostContent;
+
+        if(postContentTrimmed != null && postContentTrimmed.Length > 600) {
+          postContentTrimmed = postContentTrimmed.Substring(0,600);
+        }
+
+      }
+
+      <p>@Html.Raw(postContentTrimmed)</p>
 
       <a class="btn btn-success" asp-controller="blog" asp-route-id="@item.Id" asp-action="post">show</a>
       

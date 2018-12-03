@@ -1,0 +1,183 @@
+2018-11-28 15:53:04.7415||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 15:54:45.7870||INFO|BloggingEngine.Controllers.HomeController|Index page says hello |url: http://localhost/|action: Index
+2018-11-28 16:15:20.0147||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:15:40.4455||INFO|BloggingEngine.Controllers.HomeController|/ |url: http://localhost/|action: Index
+2018-11-28 16:16:07.8492||INFO|BloggingEngine.Controllers.HomeController|/home |url: http://localhost/home|action: Index
+2018-11-28 16:16:35.1998||INFO|BloggingEngine.Controllers.HomeController|/ |url: http://localhost/|action: Index
+2018-11-28 16:17:10.0948||INFO|BloggingEngine.Controllers.HomeController|/ |url: http://localhost/|action: Index
+2018-11-28 16:17:23.5725||INFO|BloggingEngine.Controllers.HomeController|/?coco=dasd |url: http://localhost/|action: Index
+2018-11-28 16:26:47.4375||INFO|BloggingEngine.Controllers.HomeController|/Home |url: http://localhost/Home|action: Index
+2018-11-28 16:27:11.3417||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:27:12.4048||INFO|BloggingEngine.Controllers.HomeController|/Home |url: http://localhost/Home|action: Index
+2018-11-28 16:28:14.5788||INFO|BloggingEngine.Controllers.HomeController|/Home |url: http://localhost/Home|action: Index
+2018-11-28 16:28:25.1373||INFO|BloggingEngine.Controllers.HomeController|/Home/About |url: http://localhost/Home/About|action: About
+2018-11-28 16:28:41.4684||INFO|BloggingEngine.Controllers.HomeController|/Home/About?coco=Rafael |url: http://localhost/Home/About|action: About
+2018-11-28 16:29:32.1311||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:29:36.4052||INFO|BloggingEngine.Controllers.HomeController|/Home/About?coco=Rafael |url: http://localhost/Home/About|action: About
+2018-11-28 16:45:18.5364||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:45:37.0951||INFO|BloggingEngine.Controllers.HomeController|/ |url: http://localhost/|action: Index
+2018-11-28 16:54:20.5746||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:54:47.8858||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:55:01.7625||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Index (BloggingEngine) |url: http://localhost/|action: Index
+2018-11-28 16:55:01.7762||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Index (BloggingEngine) |url: http://localhost/|action: Index
+2018-11-28 16:55:22.1716||INFO|BloggingEngine.Controllers.HomeController|/Home/About |url: http://localhost/Home/About|action: About
+2018-11-28 16:55:33.0734||INFO|BloggingEngine.Controllers.HomeController|/Home/About?coco=cocoloco |url: http://localhost/Home/About|action: About
+2018-11-28 16:57:16.5157||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 16:57:35.4546||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.About (BloggingEngine) |url: http://localhost/Home/About|action: About
+2018-11-28 16:57:35.4643||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.About (BloggingEngine) |url: http://localhost/Home/About|action: About
+2018-11-28 16:58:11.4809||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Index (BloggingEngine) |url: http://localhost/|action: Index
+2018-11-28 16:58:11.4821||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Index (BloggingEngine) |url: http://localhost/|action: Index
+2018-11-28 16:58:16.6242||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Contact (BloggingEngine) |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 16:58:16.6252||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Contact (BloggingEngine) |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 16:58:26.0840||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Contact (BloggingEngine) |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 16:58:26.0848||INFO|PokeActionFilter|HomeController - BloggingEngine.Controllers.HomeController.Contact (BloggingEngine) |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:03:02.0704||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:03:09.1298||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:03:13.9452||INFO|UrlFilter|/Home/Contact?coco=fdfd |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:03:13.9534||INFO|UrlFilter|/Home/Contact?coco=fdfd |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:05:00.0269||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:05:04.8633||INFO|UrlFilter|Executing/Home/Contact?coco=fdfd |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:05:04.8759||INFO|UrlFilter|Executed/Home/Contact?coco=fdfd |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:05:35.3874||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:05:38.8835||INFO|UrlFilter|Executing: /Home/Contact?coco=fdfd |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:05:38.8937||INFO|UrlFilter|Executed: /Home/Contact?coco=fdfd |url: http://localhost/Home/Contact|action: Contact
+2018-11-28 17:06:54.0445||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:06:59.6449||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:07:00.8197||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:07:03.4563||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:07:03.6439||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:07:07.3779||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:07:07.3876||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:07:10.3417||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:07:10.3461||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:07:12.8050||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:07:12.9392||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:07:12.9451||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:07:12.9483||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:10:42.8174||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:10:42.8213||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:13:00.5447||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:13:15.4984||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:13:16.6940||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:13:20.8160||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:13:20.9733||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:13:20.9811||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:13:21.0149||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:13:30.6250||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:13:30.6289||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:13:34.6970||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:13:34.7043||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:13:34.7100||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:13:34.7139||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:13:37.5379||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:13:37.5409||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:14:51.2217||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:14:56.7368||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:14:57.8772||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Edit
+2018-11-28 17:15:04.7710||INFO|UrlFilter|Executing: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:15:04.9275||INFO|UrlFilter|Executed: /blog/edit/27 |url: http://localhost/blog/edit/27|action: Update
+2018-11-28 17:15:04.9353||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:15:04.9675||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:15:13.7970||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:15:13.8536||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:15:15.7189||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:15:15.7221||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:15:20.6662||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-11-28 17:15:20.6751||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-11-28 17:15:34.3223||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-11-28 17:15:34.3938||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-11-28 17:15:34.3990||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:15:34.4028||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-11-28 17:21:34.6701||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:21:34.6827||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:21:53.1867||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:21:53.2095||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:21:53.2166||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:21:53.2364||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:22:00.4918||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:22:00.4975||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:22:00.5035||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:22:00.5106||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:22:03.9089||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:22:03.9144||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:22:42.6361||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:22:55.7257||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:22:57.0312||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:23:02.0535||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:23:02.2329||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:23:02.2409||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:23:02.2538||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:23:32.7988||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:23:32.8062||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:23:32.8136||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:23:32.8209||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:31:10.3128||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:31:26.6649||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:31:28.0547||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:31:38.5423||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:31:38.7148||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:31:38.7205||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:31:38.7317||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:34:51.6571||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:34:51.6650||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:34:56.7849||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:34:56.7941||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:34:56.7999||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:34:56.8060||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:38:59.6581||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:39:07.6097||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:39:08.8723||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:39:16.2510||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:39:16.2525||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:39:16.2536|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'coco logo' was not found. Searched locations: /Views/Blog/coco logo.cshtml, /Views/Shared/coco logo.cshtml, /Pages/Shared/coco logo.cshtml |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:39:16.2602|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'coco logo' was not found. The following locations were searched:
+/Views/Blog/coco logo.cshtml
+/Views/Shared/coco logo.cshtml
+/Pages/Shared/coco logo.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:39:59.5786||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:39:59.6016||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:40:55.9229||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:41:04.7097||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:41:05.9690||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:41:10.3689||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:41:10.3708||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:41:10.3787||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:41:10.3947||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:49:52.7811||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 17:51:00.4927||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:51:01.8505||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:51:05.5233||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:51:05.5253||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 17:51:05.5328||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 17:51:05.5487||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:13.9539||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-11-28 19:39:18.9102||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:20.1565||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:23.9920||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 19:39:23.9935||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 19:39:24.0004||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:24.0145||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:31.3666||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 19:39:31.3674||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 19:39:31.3755||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:31.3827||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:37.6354||INFO|UrlFilter|Executing: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 19:39:37.6371||INFO|UrlFilter|Executed: /blog/post/27/comment |url: http://localhost/blog/post/27/comment|action: Comment
+2018-11-28 19:39:37.6434||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Post
+2018-11-28 19:39:37.6502||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Post

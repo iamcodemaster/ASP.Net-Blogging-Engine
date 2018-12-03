@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using BloggingEngine.DataAccess;
 
 public class BlogPostModel
@@ -26,8 +27,10 @@ public class BlogPostList {
 }
 
 public class Comment {
-    public int Id { get; set; }
+    public int Id { get; set; }  
+    [Required(ErrorMessage = "Vergeet niet om de geslacht van de kat te selecteren")]
     public string CommentAuthor { get; set; }
+    [Required(ErrorMessage = "Vergeet niet om de geslacht van de kat te selecteren")]
     public string CommentContent { get; set; }
     public int PostId { get; set; }
 

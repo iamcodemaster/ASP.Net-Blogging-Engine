@@ -1,0 +1,87 @@
+2018-11-28 15:36:31.9036||DEBUG|BloggingEngine.Program|init main 
+2018-11-28 15:36:32.5283||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/codemaster/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2018-11-28 15:37:09.1281|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2018-11-28 15:37:09.3432|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) 
+2018-11-28 15:37:09.3642|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine) - Validation state: Valid 
+2018-11-28 15:37:09.3659||INFO|BloggingEngine.Controllers.HomeController|Index page says hello 
+2018-11-28 15:37:09.3721|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.695ms. 
+2018-11-28 15:37:09.4039|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2018-11-28 15:37:09.6851|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 301.8461ms. 
+2018-11-28 15:37:09.6886|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) in 344.5151ms 
+2018-11-28 15:37:09.6998|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 572.7021ms 200 text/html; charset=utf-8 
+2018-11-28 15:37:09.7077|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner2.svg   
+2018-11-28 15:37:09.7077|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   
+2018-11-28 15:37:09.7077|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   
+2018-11-28 15:37:09.7077|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner1.svg   
+2018-11-28 15:37:09.7317|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/images/banner1.svg'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/images/banner1.svg' 
+2018-11-28 15:37:09.7317|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/images/banner2.svg'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/images/banner2.svg' 
+2018-11-28 15:37:09.7317|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/css/site.css' 
+2018-11-28 15:37:09.7336|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.8376ms 200 image/svg+xml 
+2018-11-28 15:37:09.7336|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.8483ms 200 text/css 
+2018-11-28 15:37:09.7336|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.927ms 200 image/svg+xml 
+2018-11-28 15:37:09.7336|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2018-11-28 15:37:09.7347|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.9577ms 200 text/css 
+2018-11-28 15:37:09.7858|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   
+2018-11-28 15:37:09.7858|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js   
+2018-11-28 15:37:09.7858|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2018-11-28 15:37:09.7858|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner3.svg   
+2018-11-28 15:37:09.7869|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/js/site.js' 
+2018-11-28 15:37:09.7869|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 0.8788ms 200 application/javascript 
+2018-11-28 15:37:09.7869|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/lib/bootstrap/dist/js/bootstrap.js' 
+2018-11-28 15:37:09.7869|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/images/banner3.svg'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/images/banner3.svg' 
+2018-11-28 15:37:09.7876|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.5221ms 200 application/javascript 
+2018-11-28 15:37:09.7876|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.3987ms 200 image/svg+xml 
+2018-11-28 15:37:09.7876|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/lib/jquery/dist/jquery.js' 
+2018-11-28 15:37:09.7886|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.7806ms 200 application/javascript 
+2018-11-28 15:37:09.8055|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   
+2018-11-28 15:37:09.8055|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2' 
+2018-11-28 15:37:09.8055|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 0.8047ms 200 font/woff2 
+2018-11-28 15:41:37.7828||DEBUG|BloggingEngine.Program|init main 
+2018-11-28 15:41:38.2084||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/codemaster/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2018-11-28 15:42:20.8126|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2018-11-28 15:42:20.9301|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) 
+2018-11-28 15:42:20.9418|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine) - Validation state: Valid 
+2018-11-28 15:42:20.9431||INFO|BloggingEngine.Controllers.HomeController|Index page says hello 
+2018-11-28 15:42:20.9477|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.3846ms. 
+2018-11-28 15:42:20.9730|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2018-11-28 15:42:21.2241|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 266.5465ms. 
+2018-11-28 15:42:21.2309|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) in 300.2819ms 
+2018-11-28 15:42:21.2401|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 427.838ms 200 text/html; charset=utf-8 
+2018-11-28 15:42:21.3522|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+2018-11-28 15:42:21.3671|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/codemaster/Documents/ASP/BloggingEngine/wwwroot/favicon.ico' 
+2018-11-28 15:42:21.3687|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.5442ms 200 image/x-icon 
+2018-11-28 15:42:24.4150|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2018-11-28 15:42:24.4157|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) 
+2018-11-28 15:42:24.4157|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine) - Validation state: Valid 
+2018-11-28 15:42:24.4157||INFO|BloggingEngine.Controllers.HomeController|Index page says hello 
+2018-11-28 15:42:24.4169|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5557ms. 
+2018-11-28 15:42:24.4169|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2018-11-28 15:42:24.4194|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 2.1475ms. 
+2018-11-28 15:42:24.4199|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) in 3.9371ms 
+2018-11-28 15:42:24.4199|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.2265ms 200 text/html; charset=utf-8 
+2018-11-28 15:42:26.3923|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/blog   
+2018-11-28 15:42:26.3990|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Blog"}. Executing action BloggingEngine.Controllers.BlogController.Index (BloggingEngine) 
+2018-11-28 15:42:26.5724|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BloggingEngine.Controllers.BlogController.Index (BloggingEngine) - Validation state: Valid 
+2018-11-28 15:42:27.2132|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'PostContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-11-28 15:42:27.5426|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-11-28 15:42:27.5693|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "p"."Id", "p"."AuthorId", "p"."PostContent", "p"."PostDate", "p"."PostTitle"
+FROM "Posts" AS "p"
+ORDER BY "p"."Id" DESC 
+2018-11-28 15:42:27.6589|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BloggingEngine.Controllers.BlogController.Index (BloggingEngine), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1086.0749ms. 
+2018-11-28 15:42:27.6624|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2018-11-28 15:42:27.6906|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 31.4375ms. 
+2018-11-28 15:42:27.6910|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BloggingEngine.Controllers.BlogController.Index (BloggingEngine) in 1291.4658ms 
+2018-11-28 15:42:27.6939|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1301.5891ms 200 text/html; charset=utf-8 
+2018-11-28 15:42:28.9127|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2018-11-28 15:42:28.9127|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) 
+2018-11-28 15:42:28.9187|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine) - Validation state: Valid 
+2018-11-28 15:42:28.9187||INFO|BloggingEngine.Controllers.HomeController|Index page says hello 
+2018-11-28 15:42:28.9187|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BloggingEngine.Controllers.HomeController.Index (BloggingEngine), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3566ms. 
+2018-11-28 15:42:28.9187|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2018-11-28 15:42:28.9201|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 0.6813ms. 
+2018-11-28 15:42:28.9201|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BloggingEngine.Controllers.HomeController.Index (BloggingEngine) in 1.7209ms 
+2018-11-28 15:42:28.9207|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.948ms 200 text/html; charset=utf-8 
+2018-11-28 15:45:51.7019||DEBUG|BloggingEngine.Program|init main 
+2018-11-28 15:45:52.1196||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/codemaster/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 

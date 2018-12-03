@@ -19,6 +19,7 @@ namespace BloggingEngine.Controllers
             _postContext = postContext;
         }
 
+        [UrlFilter]
         [Route("blog")]
         [HttpGet()]
         public IActionResult Index() {
@@ -29,6 +30,7 @@ namespace BloggingEngine.Controllers
             return View(blogpostListModel);
         }
 
+        [UrlFilter]
         [Route("blog/create")]
         [HttpGet()]
         public IActionResult Create() {
@@ -39,6 +41,7 @@ namespace BloggingEngine.Controllers
             return View(blogpostWithAuthor);
         }
 
+        [UrlFilter]
         [Route("blog/create")]
         [HttpPost]
         public IActionResult Create(PostWithAuthor item) {
@@ -82,6 +85,7 @@ namespace BloggingEngine.Controllers
             return RedirectToAction("Index");
         }
 
+        [UrlFilter]
         [Route("blog/post/{id}")]
         [HttpGet()]
         public IActionResult Post([FromRoute]int id) {
@@ -91,14 +95,14 @@ namespace BloggingEngine.Controllers
             if (post == null)
             {
                 return RedirectToAction("Index");
-            }
+            } 
 
             // get the author of the post
             var author = _postContext.Authors.Find(post.AuthorId);
 
             // get the comments of the post by post id
             var postComments = _postContext.Comments.Where(c => c.PostId == post.Id);
-            var comments = postComments.ToList();
+            var comments = postComments.ToList();  // je kan de .ToList rechtstreeks op het einde van bovenstaande lijn toevoegen
 
             // build author model
             var authorModel = new Author() {
@@ -106,6 +110,8 @@ namespace BloggingEngine.Controllers
                 FirstName = author.FirstName,
                 LastName = author.LastName
             };
+
+            // ik zou onderstaand model eerst maken, maar nog zonder PostAuthor en Comments. je kan deze dan nog later opvullen met de code van hierboven.
 
             // build blog post model
             var blogpostModel = new BlogPostModel() {
@@ -120,6 +126,7 @@ namespace BloggingEngine.Controllers
             return View(blogpostModel);
         }
 
+        [UrlFilter]
         [Route("blog/post/{id}")]
         [HttpPost]
         public IActionResult Delete([FromRoute] int id) {
@@ -128,6 +135,7 @@ namespace BloggingEngine.Controllers
             return RedirectToAction("Index");
         }
 
+        [UrlFilter]
         [Route("blog/post/{id}/comment")]
         [HttpPost]
         public IActionResult Comment([FromRoute] int id, BlogPostModel item) {
@@ -136,12 +144,15 @@ namespace BloggingEngine.Controllers
                 CommentContent = item.Comment.CommentContent,
                 PostId = id
             };
-            _postContext.Comments.Add(comment);
-            _postContext.SaveChanges();
-
+            if (ModelState.IsValid) {
+                _postContext.Comments.Add(comment);
+                _postContext.SaveChanges();
+                return RedirectToAction("Post");
+            }
             return RedirectToAction("Post");
         }
         
+        [UrlFilter]
         [Route("blog/edit/{id}")]
         [HttpGet()]
         public IActionResult Edit([FromRoute] int id) {
@@ -162,6 +173,7 @@ namespace BloggingEngine.Controllers
 
         // The tutorial I followed to create this method:
         // https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api-mac?view=aspnetcore-2.1
+        [UrlFilter]
         [Route("blog/edit/{id}")]
         [HttpPost()]
         public IActionResult Update([FromRoute] int id, BlogPostModel item) {

@@ -1,0 +1,65 @@
+2018-11-28 15:36:31.6202 Info Message Template Auto Format enabled
+2018-11-28 15:36:31.6381 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-28 15:36:31.6916 Info Adding target File Target[allfile]
+2018-11-28 15:36:31.6972 Info Adding target File Target[ownFile-web]
+2018-11-28 15:36:31.7064 Info Configured from an XML element in /Users/codemaster/Documents/ASP/BloggingEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2018-11-28 15:36:31.7246 Info Found 45 configuration items
+2018-11-28 15:41:31.1456 Info Logger closing down...
+2018-11-28 15:41:31.1477 Info Closing old configuration.
+2018-11-28 15:41:31.1586 Info Logger has been closed down.
+2018-11-28 15:41:31.1598 Info Shutting down logging...
+2018-11-28 15:41:31.1613 Info Logger has been shut down.
+2018-11-28 15:41:37.5187 Info Message Template Auto Format enabled
+2018-11-28 15:41:37.5350 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-28 15:41:37.5844 Info Adding target File Target[allfile]
+2018-11-28 15:41:37.5866 Info Adding target File Target[ownFile-web]
+2018-11-28 15:41:37.5948 Info Configured from an XML element in /Users/codemaster/Documents/ASP/BloggingEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2018-11-28 15:41:37.6135 Info Found 45 configuration items
+2018-11-28 15:45:46.2090 Info Logger closing down...
+2018-11-28 15:45:46.2111 Info Closing old configuration.
+2018-11-28 15:45:46.2203 Info Logger has been closed down.
+2018-11-28 15:45:46.2215 Info Shutting down logging...
+2018-11-28 15:45:46.2230 Info Logger has been shut down.
+2018-11-28 15:45:51.4265 Info Message Template Auto Format enabled
+2018-11-28 15:45:51.4444 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-28 15:45:51.4973 Info Adding target File Target[allfile]
+2018-11-28 15:45:51.5003 Info Adding target File Target[ownFile-web]
+2018-11-28 15:45:51.5088 Info Configured from an XML element in /Users/codemaster/Documents/ASP/BloggingEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2018-11-28 15:45:51.5267 Info Found 45 configuration items
+2018-11-28 15:46:12.6601 Info Logger closing down...
+2018-11-28 15:46:12.6617 Info Closing old configuration.
+2018-11-28 15:46:12.6706 Info Logger has been closed down.
+2018-11-28 15:46:12.6718 Info Shutting down logging...
+2018-11-28 15:46:12.6733 Info Logger has been shut down.
+2018-11-28 15:46:16.8901 Info Message Template Auto Format enabled
+2018-11-28 15:46:16.9064 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-28 15:46:16.9570 Info Adding target File Target[allfile]
+2018-11-28 15:46:16.9594 Info Adding target File Target[ownFile-web]
+2018-11-28 15:46:16.9671 Info Configured from an XML element in /Users/codemaster/Documents/ASP/BloggingEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2018-11-28 15:46:16.9842 Info Found 45 configuration items
+2018-11-28 15:46:17.2326 Error FileTarget(Name=allfile): Failed write to file '/temp/nlog-all-2018-11-28.log'. Exception: System.UnauthorizedAccessException: Access to the path '/temp' is denied. ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2018-11-28 15:46:17.2405 Error FileTarget(Name=ownFile-web): Failed write to file '/temp/nlog-own-2018-11-28.log'. Exception: System.UnauthorizedAccessException: Access to the path '/temp' is denied. ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2018-11-28 15:46:17.6069 Error FileTarget(Name=allfile): Failed write to file '/temp/nlog-all-2018-11-28.log'. Exception: System.UnauthorizedAccessException: Access to the path '/temp' is denied. ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2018-11-28 15:46:56.7664 Info Logger closing down...
+2018-11-28 15:46:56.7744 Info Closing old configuration.
+2018-11-28 15:46:56.7828 Info Logger has been closed down.
+2018-11-28 15:46:56.7843 Info Shutting down logging...
+2018-11-28 15:46:56.7859 Info Logger has been shut down.

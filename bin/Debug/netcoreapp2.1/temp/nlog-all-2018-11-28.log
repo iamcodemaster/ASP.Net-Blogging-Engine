@@ -1,0 +1,6 @@
+2018-11-28 15:48:13.3778||DEBUG|BloggingEngine.Program|init main 
+2018-11-28 15:48:13.8182||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/codemaster/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2018-11-28 15:49:03.1338||DEBUG|BloggingEngine.Program|init main 
+2018-11-28 15:49:03.5205||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/codemaster/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2018-11-28 15:49:37.3817||DEBUG|BloggingEngine.Program|init main 
+2018-11-28 15:49:37.9801||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/codemaster/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 

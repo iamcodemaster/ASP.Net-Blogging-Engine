@@ -10,11 +10,13 @@ namespace BloggingEngine.Controllers
 {
     public class HomeController : Controller
     {
+        [UrlFilter]
         public IActionResult Index()
         {
             return View();
         }
 
+        [UrlFilter]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -22,6 +24,7 @@ namespace BloggingEngine.Controllers
             return View();
         }
 
+        [UrlFilter]
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
@@ -29,6 +32,7 @@ namespace BloggingEngine.Controllers
             return View();
         }
 
+        [UrlFilter]
         public IActionResult Privacy()
         {
             return View();

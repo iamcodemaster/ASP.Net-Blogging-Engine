@@ -138,18 +138,17 @@ namespace BloggingEngine.Controllers
         [UrlFilter]
         [Route("blog/post/{id}/comment")]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Comment([FromRoute] int id, BlogPostModel item) {
             var comment = new BloggingEngine.DataAccess.PostComment() {
                 CommentAuthor = item.Comment.CommentAuthor,
                 CommentContent = item.Comment.CommentContent,
                 PostId = id
             };
-            if (ModelState.IsValid) {
-                _postContext.Comments.Add(comment);
-                _postContext.SaveChanges();
-                return RedirectToAction("Post");
-            }
+            _postContext.Comments.Add(comment);
+            _postContext.SaveChanges();
             return RedirectToAction("Post");
+            
         }
         
         [UrlFilter]
@@ -176,20 +175,24 @@ namespace BloggingEngine.Controllers
         [UrlFilter]
         [Route("blog/edit/{id}")]
         [HttpPost()]
+        [ValidateAntiForgeryToken]
         public IActionResult Update([FromRoute] int id, BlogPostModel item) {
             var post = _postContext.Posts.Find(id);
             if (post == null)
             {
                 return RedirectToAction("Index");
             }
+            if (ModelState.IsValid) {
+                post.PostTitle = item.PostTitle;
+                post.PostContent = item.PostContent;
+                post.PostDate = item.PostDate;
 
-            post.PostTitle = item.PostTitle;
-            post.PostContent = item.PostContent;
-            post.PostDate = item.PostDate;
+                _postContext.Posts.Update(post);
+                _postContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
 
-            _postContext.Posts.Update(post);
-            _postContext.SaveChanges();
-            return RedirectToAction("Index");
+            return View("Edit", item);
         }
     }
 }

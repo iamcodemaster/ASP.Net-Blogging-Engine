@@ -17,14 +17,17 @@
   <div class="form-group">
     <label for="title">Post Title</label>
     <input asp-for="@Model.PostTitle" class="form-control" id="title" placeholder="The post title">
+    <span asp-validation-for="@Model.PostTitle" class="text-danger" ></span>
   </div>
   <div class="form-group">
     <label for="date">Date</label>
     <input asp-for="@Model.PostDate" class="form-control" type="date" id="date">
+    <span asp-validation-for="@Model.PostDate" class="text-danger" ></span>
   </div>
   <div class="form-group">
     <label for="text">Post Text</label>
     <textarea asp-for="@Model.PostContent" class="form-control" id="text" rows="5"></textarea>
+    <span class="text-danger" asp-validation-for="@Model.PostContent"></span>
   </div>
   <button type="submit" class="btn btn-success" value="Save">Save</button>
 </form>

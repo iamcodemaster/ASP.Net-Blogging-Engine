@@ -28,9 +28,9 @@ public class BlogPostList {
 
 public class Comment {
     public int Id { get; set; }  
-    [Required(ErrorMessage = "Vergeet niet om de geslacht van de kat te selecteren")]
+    [Required(ErrorMessage = "Author field can not be empty")]
     public string CommentAuthor { get; set; }
-    [Required(ErrorMessage = "Vergeet niet om de geslacht van de kat te selecteren")]
+    [Required(ErrorMessage = "Comment field can not be empty")]
     public string CommentContent { get; set; }
     public int PostId { get; set; }
 

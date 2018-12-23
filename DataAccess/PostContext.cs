@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using BloggingEngine.Models;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BloggingEngine.DataAccess
 {
@@ -22,8 +23,10 @@ namespace BloggingEngine.DataAccess
     public DbSet<PostComment> Comments { get; internal set; }
   }
 
+  [Table("Post")]
   public class Post
   {  
+    [Key]
     public int Id { get; set; }
     public string PostTitle { get; set; }
     public string PostContent { get; set; }
@@ -35,14 +38,18 @@ namespace BloggingEngine.DataAccess
 
   }
 
+  [Table("Author")]
   public class Author
   {  
+    [Key]
     public int Id { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
   }
 
+  [Table("PostComment")]
   public class PostComment {
+    [Key]
     public int Id { get; set; }
     public string CommentAuthor { get; set; }
     public string CommentContent { get; set; }

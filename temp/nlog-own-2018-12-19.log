@@ -1,0 +1,778 @@
+2018-12-19 15:09:04.3594||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:10:08.3884||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:09.6649||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:09.9634||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:09.9785||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:13.9746||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:10:14.0133||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:10:16.9326||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:10:17.1795||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:10:17.1892||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:17.1912||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:20.2552||INFO|UrlFilter|Executing: /blog/post/29 |url: http://localhost/blog/post/29|action: Delete
+2018-12-19 15:10:20.4057||INFO|UrlFilter|Executed: /blog/post/29 |url: http://localhost/blog/post/29|action: Delete
+2018-12-19 15:10:20.4117||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:20.4143||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:21.7949||INFO|UrlFilter|Executing: /blog/edit/28 |url: http://localhost/blog/edit/28|action: Edit
+2018-12-19 15:10:21.8013||INFO|UrlFilter|Executed: /blog/edit/28 |url: http://localhost/blog/edit/28|action: Edit
+2018-12-19 15:10:26.4534||INFO|UrlFilter|Executing: /blog/edit/28 |url: http://localhost/blog/edit/28|action: Update
+2018-12-19 15:10:26.4682||INFO|UrlFilter|Executed: /blog/edit/28 |url: http://localhost/blog/edit/28|action: Update
+2018-12-19 15:10:26.4745||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:26.4764||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:28.2577||INFO|UrlFilter|Executing: /blog/post/28 |url: http://localhost/blog/post/28|action: Delete
+2018-12-19 15:10:28.2856||INFO|UrlFilter|Executed: /blog/post/28 |url: http://localhost/blog/post/28|action: Delete
+2018-12-19 15:10:28.2907||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:28.2934||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:31.3834||INFO|UrlFilter|Executing: /blog/post/27 |url: http://localhost/blog/post/27|action: Delete
+2018-12-19 15:10:31.3905||INFO|UrlFilter|Executed: /blog/post/27 |url: http://localhost/blog/post/27|action: Delete
+2018-12-19 15:10:31.3984||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:31.4031||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:10:33.3654||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:10:33.3686||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:11:49.2881||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:11:49.2912||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:11:51.3579||INFO|UrlFilter|Executing: /blog/edit/15 |url: http://localhost/blog/edit/15|action: Edit
+2018-12-19 15:11:51.3610||INFO|UrlFilter|Executed: /blog/edit/15 |url: http://localhost/blog/edit/15|action: Edit
+2018-12-19 15:11:56.1619||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:11:56.1641||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:11:57.8250||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:11:57.8841||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:12:02.6283||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:12:02.6300||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:12:02.6362||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:12:02.6440||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:15:30.9949||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:15:31.0045||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:15:42.3675||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:17:18.3504||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:17:26.1757||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:17:27.4991||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:17:29.8610||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:17:29.8642||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:17:29.8714||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:17:29.8864||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:17:36.8608||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:17:36.8616||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:17:36.8665||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:17:36.8754||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:24:53.5751||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:25:13.5895||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:14.9547||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:21.0380||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:25:21.0414||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:25:21.0493||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:21.0643||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:29.5976||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:25:29.5982||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:25:29.6064||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:29.6142||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:32.3685||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:25:32.3752||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:26:21.0402||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:26:21.0410||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:26:21.0461||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:26:21.0553||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:26:26.0875||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:26:26.2945||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:26:26.2994||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:26:26.3052||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:00.1217||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:28:07.2357||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:08.6172||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:11.6540||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:28:11.6573||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:28:11.6652||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:11.6791||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:16.6265||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:28:16.6280||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:28:16.6363||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:16.6439||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:28:59.1592||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:28:59.1944||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:28:59.3479||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:28:59.3500||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:29:02.0688||INFO|UrlFilter|Executing: /blog/edit/15 |url: http://localhost/blog/edit/15|action: Edit
+2018-12-19 15:29:02.0742||INFO|UrlFilter|Executed: /blog/edit/15 |url: http://localhost/blog/edit/15|action: Edit
+2018-12-19 15:29:18.0429||INFO|UrlFilter|Executing: / |url: http://localhost/|action: Index
+2018-12-19 15:29:18.0439||INFO|UrlFilter|Executed: / |url: http://localhost/|action: Index
+2018-12-19 15:29:20.1247||INFO|UrlFilter|Executing: /blog/edit/15 |url: http://localhost/blog/edit/15|action: Edit
+2018-12-19 15:29:20.1278||INFO|UrlFilter|Executed: /blog/edit/15 |url: http://localhost/blog/edit/15|action: Edit
+2018-12-19 15:29:22.3517||INFO|UrlFilter|Executing: /blog/ |url: http://localhost/blog/|action: Index
+2018-12-19 15:29:22.3559||INFO|UrlFilter|Executed: /blog/ |url: http://localhost/blog/|action: Index
+2018-12-19 15:29:24.4388||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:29:24.4507||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:35:05.6024||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:36:31.2257||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:36:36.1000||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:36:37.2263||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:36:39.7719||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:36:39.7761||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:33.2080||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:37:37.8120||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:39.0028||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:39.1618||INFO|UrlFilter|Executing: /blog/ |url: http://localhost/blog/|action: Index
+2018-12-19 15:37:39.2540||INFO|UrlFilter|Executed: /blog/ |url: http://localhost/blog/|action: Index
+2018-12-19 15:37:41.0195||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:41.0246||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:42.5508||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:42.5526||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:44.4256||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:44.4298||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:37:44.4372|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Blog_Create.<ExecuteAsync>b__36_1() in /Users/codemaster/Documents/ASP/BloggingEngine/Views/Blog/Create.cshtml:line 29
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Blog_Create.<ExecuteAsync>b__36_0() in /Users/codemaster/Documents/ASP/BloggingEngine/Views/Blog/Create.cshtml:line 27
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Blog_Create.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:00.6784||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:38:03.8784||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:05.0030||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:11.0357||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:11.0408||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:11.0507||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:38:11.1276||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:38:12.4518||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:12.4566||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:17.6370||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:17.6378||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:17.6449||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:38:17.6536||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:38:19.2982||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:19.3005||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:27.3879||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:27.6341||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:38:27.6386||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:38:27.6405||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:38:30.2622||INFO|UrlFilter|Executing: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 15:38:30.4275||INFO|UrlFilter|Executed: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 15:40:31.5436||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:41:14.9439||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:41:18.6691||INFO|UrlFilter|Executing: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 15:41:20.0203||INFO|UrlFilter|Executed: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 15:41:21.7791||INFO|UrlFilter|Executing: / |url: http://localhost/|action: Index
+2018-12-19 15:41:21.7822||INFO|UrlFilter|Executed: / |url: http://localhost/|action: Index
+2018-12-19 15:41:22.7614||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:22.7914||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:23.9236||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:23.9343||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:25.3582||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:25.3605||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:25.3694||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:25.3762||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:26.5167||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:26.5180||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:34.3409||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:34.3413||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:34.3492||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:34.3524||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:36.4365||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:36.4390||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:55.8541||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:56.0573||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:41:56.0620||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:56.0651||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:41:58.2551||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:41:58.2631||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:02.5987||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:02.6001||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:02.6062||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:02.6140||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:05.6210||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:05.6220||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:05.6259||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:05.6329||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:11.5590||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:11.5600||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:11.5660||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:11.5734||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:13.9296||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:13.9459||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:15.5102||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:15.5130||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:16.9260||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:16.9340||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:20.4339||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:20.4370||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:21.9119||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:42:21.9411||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:42:25.2706||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:42:25.2711||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:42:25.2789||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:42:25.2861||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:42:28.0054||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:42:28.0110||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:42:28.8613||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:28.8640||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:47.8101||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:47.8171||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:51.7219||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:51.7289||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:55.2057||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:55.2062||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:42:55.2109||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:55.2182||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:57.4686||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:57.4739||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:42:58.4422||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:42:58.4459||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:43:14.1107||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:43:14.1128||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:43:17.9177||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:43:17.9241||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:43:21.4926||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:43:21.4931||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:43:21.4978||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:43:21.5049||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:43:23.6840||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:43:23.6900||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:09.1741||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:47:09.1746||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:47:09.1794||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:09.1875||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:24.8134||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:47:28.0721||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:29.4372||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:32.6335||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:47:32.6372||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:47:32.6462||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:32.6636||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:34.8822||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:34.8894||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:36.3462||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:47:36.3753||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:47:37.8230||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:47:37.8302||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:49:36.8984||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:49:50.1724||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:50:08.8108||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:10.0353||INFO|UrlFilter|Executing: / |url: http://localhost/|action: Index
+2018-12-19 15:50:10.0470||INFO|UrlFilter|Executed: / |url: http://localhost/|action: Index
+2018-12-19 15:50:10.2491||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:10.6539||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:50:10.6871||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:50:11.8522||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:50:11.8619||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:50:13.1778||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:50:13.1810||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:50:13.1870||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:50:13.1948||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:50:15.1607||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:50:15.1639||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 15:50:17.1115||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:50:17.1139||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:50:18.1720||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:18.1819||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:19.4469||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:50:19.4489||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:50:19.4548||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:19.4619||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:22.7936||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:50:22.7948||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:50:22.7989||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:50:22.8070||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:51:22.0291||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:51:22.0302||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:51:22.0352||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:51:22.0432||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:53:48.6118||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:53:55.7053||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:53:57.0820||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:54:00.5728||INFO|UrlFilter|Executing: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:54:00.5760||INFO|UrlFilter|Executed: /blog/post/31/comment |url: http://localhost/blog/post/31/comment|action: Comment
+2018-12-19 15:54:00.5850||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:54:00.6037||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 15:54:03.5275||INFO|UrlFilter|Executing: / |url: http://localhost/|action: Index
+2018-12-19 15:54:03.5326||INFO|UrlFilter|Executed: / |url: http://localhost/|action: Index
+2018-12-19 15:54:05.0578||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:54:05.0828||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:54:07.1216||INFO|UrlFilter|Executing: /blog/post/7 |url: http://localhost/blog/post/7|action: Post
+2018-12-19 15:54:07.1277||INFO|UrlFilter|Executed: /blog/post/7 |url: http://localhost/blog/post/7|action: Post
+2018-12-19 15:54:10.3486||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:54:10.3517||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 15:54:12.6396||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:54:12.6636||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:54:16.3905||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:54:16.3915||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:54:16.3959||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:54:16.4025||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:54:47.5204||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:54:58.4069||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:54:59.7930||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:55:03.2875||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:55:03.5184||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:55:03.5255||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:55:03.5375||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:57:49.5793||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 15:58:26.3830||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:58:27.7701||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 15:58:30.0946||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:58:30.0973||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 15:58:30.1004|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Blog_Post.ExecuteAsync() in /Users/codemaster/Documents/ASP/BloggingEngine/Views/Blog/Post.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:03:15.4364||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:03:25.2872||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:03:26.6698||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:03:31.4574||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:03:31.4622||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:03:31.4744||INFO|UrlFilter|Executing: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:03:31.4902||INFO|UrlFilter|Executed: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:05:00.3848||INFO|UrlFilter|Executing: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:05:00.3926||INFO|UrlFilter|Executed: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:06:42.9626||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:07:56.4902||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:08:06.3269||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:08:07.4821||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:08:09.1295||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 16:08:09.1594||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 16:08:10.5264||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:08:10.5354||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:08:11.5796||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:08:11.7119||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:08:15.0717||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:08:15.0773||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:08:15.0790|3|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Update' was not found. Searched locations: /Views/Blog/Update.cshtml, /Views/Shared/Update.cshtml, /Pages/Shared/Update.cshtml |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:08:15.0834|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Update' was not found. The following locations were searched:
+/Views/Blog/Update.cshtml
+/Views/Shared/Update.cshtml
+/Pages/Shared/Update.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:09:24.1386||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:09:36.3897||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:09:37.6597||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:09:41.3018||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:09:41.3169||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:36.2034||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:36.2078||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:43.0821||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:43.0848||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:45.7219||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:45.7255||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:54.0739||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:54.2500||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:10:54.2575||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:10:54.2950||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:11:42.6195||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:13:20.7038||INFO|UrlFilter|Executing: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 16:13:22.0979||INFO|UrlFilter|Executed: /blog/post/31 |url: http://localhost/blog/post/31|action: Post
+2018-12-19 16:13:23.6951||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:13:23.7271||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:13:24.5837||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:13:24.5944||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:13:53.5831||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:13:53.5872||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:15:20.2236||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:15:25.3914||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:15:26.6390||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:15:32.8433||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:15:32.8598||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:15:52.1402||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:15:52.1436||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:17:14.4439||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:17:14.4475||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:17:52.9500||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:17:54.2606||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:17:55.5373||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:17:59.6172||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:17:59.6326||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:18:07.4361||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:18:07.4404||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:18:27.0345||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:18:27.0381||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:18:33.9232||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:18:33.9271||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:18:36.1555||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:18:36.2002||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:18:46.3651||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 16:18:46.3875||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 16:22:41.9418||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:22:48.5431||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:22:49.7109||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:22:56.0309||INFO|UrlFilter|Executing: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 16:22:56.2454||INFO|UrlFilter|Executed: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 16:22:59.4093||INFO|UrlFilter|Executing: /blog/post/30/comment |url: http://localhost/blog/post/30/comment|action: Comment
+2018-12-19 16:22:59.4274||INFO|UrlFilter|Executed: /blog/post/30/comment |url: http://localhost/blog/post/30/comment|action: Comment
+2018-12-19 16:22:59.4312|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Blog_Post.ExecuteAsync() in /Users/codemaster/Documents/ASP/BloggingEngine/Views/Blog/Post.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/blog/post/30/comment|action: Comment
+2018-12-19 16:25:31.4620||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:26:15.3028||INFO|UrlFilter|Executing: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 16:26:16.6406||INFO|UrlFilter|Executed: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 16:26:18.7620||INFO|UrlFilter|Executing: /blog/post/30/comment |url: http://localhost/blog/post/30/comment|action: Comment
+2018-12-19 16:26:18.7798||INFO|UrlFilter|Executed: /blog/post/30/comment |url: http://localhost/blog/post/30/comment|action: Comment
+2018-12-19 16:26:27.5686||INFO|UrlFilter|Executing: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 16:26:27.5760||INFO|UrlFilter|Executed: /blog/post/30 |url: http://localhost/blog/post/30|action: Post
+2018-12-19 16:26:29.3874||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:26:29.4148||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:26:32.0219||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:26:32.0468||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:26:43.2140||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:26:43.2207||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:32:07.4659||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:32:12.7674||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:32:14.1226||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:32:16.9773||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:32:16.9975||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:33:38.5231||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:33:51.6381||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:33:52.9831||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:33:56.4060||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:33:56.4302||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:33:56.4427||INFO|UrlFilter|Executing: /blog/post/15?PostTitle=A%20New%20Post&PostContent=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Vestibulum%20sit%20amet%20quam%20quam.%20Donec%20id%20diam%20in%20massa%20sagittis%20laoreet.%20Nulla%20vitae%20mi%20sed%20est%20elementum%20lobortis%20sed%20id%20diam.%20Nulla%20quam%20metus,%20maximus%20nec%20arcu%20sit%20amet,%20pharetra%20fermentum%20libero.%20Vivamus%20ullamcorper,%20felis%20quis%20feugiat%20molestie,%20turpis%20tortor%20dapibus%20neque,%20vel%20feugiat%20velit%20libero%20sit%20amet%20dui.%20Cras%20in%20fermentum%20elit.%20Suspendisse%20eu%20maximus%20nibh,%20sit%20amet%20rhoncus%20lacus.%20Maecenas%20eu%20dolor%20augue.%20Cras%20gravida%20eget%20nibh%20a%20consequat.%20Nam%20vehicula%20felis%20dui,%20eu%20aliquet%20sem%20sodales%20in.%0D%0A%0D%0AEtiam%20elementum%20magna%20in%20porttitor%20maximus.%20Aliquam%20malesuada%20velit%20a%20odio%20rutrum,%20in%20mattis%20sem%20semper.%20Nam%20dapibus%20eget%20odio%20vitae%20volutpat.%20Ut%20sagittis%20vitae%20risus%20id%20luctus.%20Phasellus%20viverra%20urna%20eu%20vehicula%20volutpat.%20Integer%20in%20nulla%20faucibus%20nibh%20tincidunt%20eleifend.%20Sed%20risus%20est,%20convallis%20ac%20tellus%20sit%20amet,%20elementum%20consequat%20erat.&AuthorId=6&PostAuthor=BloggingEngine.DataAccess.Author&PostDate=2018-11-02&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:33:56.4492||INFO|UrlFilter|Executed: /blog/post/15?PostTitle=A%20New%20Post&PostContent=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Vestibulum%20sit%20amet%20quam%20quam.%20Donec%20id%20diam%20in%20massa%20sagittis%20laoreet.%20Nulla%20vitae%20mi%20sed%20est%20elementum%20lobortis%20sed%20id%20diam.%20Nulla%20quam%20metus,%20maximus%20nec%20arcu%20sit%20amet,%20pharetra%20fermentum%20libero.%20Vivamus%20ullamcorper,%20felis%20quis%20feugiat%20molestie,%20turpis%20tortor%20dapibus%20neque,%20vel%20feugiat%20velit%20libero%20sit%20amet%20dui.%20Cras%20in%20fermentum%20elit.%20Suspendisse%20eu%20maximus%20nibh,%20sit%20amet%20rhoncus%20lacus.%20Maecenas%20eu%20dolor%20augue.%20Cras%20gravida%20eget%20nibh%20a%20consequat.%20Nam%20vehicula%20felis%20dui,%20eu%20aliquet%20sem%20sodales%20in.%0D%0A%0D%0AEtiam%20elementum%20magna%20in%20porttitor%20maximus.%20Aliquam%20malesuada%20velit%20a%20odio%20rutrum,%20in%20mattis%20sem%20semper.%20Nam%20dapibus%20eget%20odio%20vitae%20volutpat.%20Ut%20sagittis%20vitae%20risus%20id%20luctus.%20Phasellus%20viverra%20urna%20eu%20vehicula%20volutpat.%20Integer%20in%20nulla%20faucibus%20nibh%20tincidunt%20eleifend.%20Sed%20risus%20est,%20convallis%20ac%20tellus%20sit%20amet,%20elementum%20consequat%20erat.&AuthorId=6&PostAuthor=BloggingEngine.DataAccess.Author&PostDate=2018-11-02&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:34:00.7743||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:34:00.7822||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:34:00.7899||INFO|UrlFilter|Executing: /blog/post/15?PostTitle=A%20New%20Post&PostContent=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Vestibulum%20sit%20amet%20quam%20quam.%20Donec%20id%20diam%20in%20massa%20sagittis%20laoreet.%20Nulla%20vitae%20mi%20sed%20est%20elementum%20lobortis%20sed%20id%20diam.%20Nulla%20quam%20metus,%20maximus%20nec%20arcu%20sit%20amet,%20pharetra%20fermentum%20libero.%20Vivamus%20ullamcorper,%20felis%20quis%20feugiat%20molestie,%20turpis%20tortor%20dapibus%20neque,%20vel%20feugiat%20velit%20libero%20sit%20amet%20dui.%20Cras%20in%20fermentum%20elit.%20Suspendisse%20eu%20maximus%20nibh,%20sit%20amet%20rhoncus%20lacus.%20Maecenas%20eu%20dolor%20augue.%20Cras%20gravida%20eget%20nibh%20a%20consequat.%20Nam%20vehicula%20felis%20dui,%20eu%20aliquet%20sem%20sodales%20in.%0D%0A%0D%0AEtiam%20elementum%20magna%20in%20porttitor%20maximus.%20Aliquam%20malesuada%20velit%20a%20odio%20rutrum,%20in%20mattis%20sem%20semper.%20Nam%20dapibus%20eget%20odio%20vitae%20volutpat.%20Ut%20sagittis%20vitae%20risus%20id%20luctus.%20Phasellus%20viverra%20urna%20eu%20vehicula%20volutpat.%20Integer%20in%20nulla%20faucibus%20nibh%20tincidunt%20eleifend.%20Sed%20risus%20est,%20convallis%20ac%20tellus%20sit%20amet,%20elementum%20consequat%20erat.&AuthorId=6&PostAuthor=BloggingEngine.DataAccess.Author&PostDate=2018-11-02&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:34:00.7975||INFO|UrlFilter|Executed: /blog/post/15?PostTitle=A%20New%20Post&PostContent=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Vestibulum%20sit%20amet%20quam%20quam.%20Donec%20id%20diam%20in%20massa%20sagittis%20laoreet.%20Nulla%20vitae%20mi%20sed%20est%20elementum%20lobortis%20sed%20id%20diam.%20Nulla%20quam%20metus,%20maximus%20nec%20arcu%20sit%20amet,%20pharetra%20fermentum%20libero.%20Vivamus%20ullamcorper,%20felis%20quis%20feugiat%20molestie,%20turpis%20tortor%20dapibus%20neque,%20vel%20feugiat%20velit%20libero%20sit%20amet%20dui.%20Cras%20in%20fermentum%20elit.%20Suspendisse%20eu%20maximus%20nibh,%20sit%20amet%20rhoncus%20lacus.%20Maecenas%20eu%20dolor%20augue.%20Cras%20gravida%20eget%20nibh%20a%20consequat.%20Nam%20vehicula%20felis%20dui,%20eu%20aliquet%20sem%20sodales%20in.%0D%0A%0D%0AEtiam%20elementum%20magna%20in%20porttitor%20maximus.%20Aliquam%20malesuada%20velit%20a%20odio%20rutrum,%20in%20mattis%20sem%20semper.%20Nam%20dapibus%20eget%20odio%20vitae%20volutpat.%20Ut%20sagittis%20vitae%20risus%20id%20luctus.%20Phasellus%20viverra%20urna%20eu%20vehicula%20volutpat.%20Integer%20in%20nulla%20faucibus%20nibh%20tincidunt%20eleifend.%20Sed%20risus%20est,%20convallis%20ac%20tellus%20sit%20amet,%20elementum%20consequat%20erat.&AuthorId=6&PostAuthor=BloggingEngine.DataAccess.Author&PostDate=2018-11-02&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:05.0795||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:35:16.0643||INFO|UrlFilter|Executing: /blog/post/15?PostTitle=A%20New%20Post&PostContent=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Vestibulum%20sit%20amet%20quam%20quam.%20Donec%20id%20diam%20in%20massa%20sagittis%20laoreet.%20Nulla%20vitae%20mi%20sed%20est%20elementum%20lobortis%20sed%20id%20diam.%20Nulla%20quam%20metus,%20maximus%20nec%20arcu%20sit%20amet,%20pharetra%20fermentum%20libero.%20Vivamus%20ullamcorper,%20felis%20quis%20feugiat%20molestie,%20turpis%20tortor%20dapibus%20neque,%20vel%20feugiat%20velit%20libero%20sit%20amet%20dui.%20Cras%20in%20fermentum%20elit.%20Suspendisse%20eu%20maximus%20nibh,%20sit%20amet%20rhoncus%20lacus.%20Maecenas%20eu%20dolor%20augue.%20Cras%20gravida%20eget%20nibh%20a%20consequat.%20Nam%20vehicula%20felis%20dui,%20eu%20aliquet%20sem%20sodales%20in.%0D%0A%0D%0AEtiam%20elementum%20magna%20in%20porttitor%20maximus.%20Aliquam%20malesuada%20velit%20a%20odio%20rutrum,%20in%20mattis%20sem%20semper.%20Nam%20dapibus%20eget%20odio%20vitae%20volutpat.%20Ut%20sagittis%20vitae%20risus%20id%20luctus.%20Phasellus%20viverra%20urna%20eu%20vehicula%20volutpat.%20Integer%20in%20nulla%20faucibus%20nibh%20tincidunt%20eleifend.%20Sed%20risus%20est,%20convallis%20ac%20tellus%20sit%20amet,%20elementum%20consequat%20erat.&AuthorId=6&PostAuthor=BloggingEngine.DataAccess.Author&PostDate=2018-11-02&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:17.4862||INFO|UrlFilter|Executed: /blog/post/15?PostTitle=A%20New%20Post&PostContent=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Vestibulum%20sit%20amet%20quam%20quam.%20Donec%20id%20diam%20in%20massa%20sagittis%20laoreet.%20Nulla%20vitae%20mi%20sed%20est%20elementum%20lobortis%20sed%20id%20diam.%20Nulla%20quam%20metus,%20maximus%20nec%20arcu%20sit%20amet,%20pharetra%20fermentum%20libero.%20Vivamus%20ullamcorper,%20felis%20quis%20feugiat%20molestie,%20turpis%20tortor%20dapibus%20neque,%20vel%20feugiat%20velit%20libero%20sit%20amet%20dui.%20Cras%20in%20fermentum%20elit.%20Suspendisse%20eu%20maximus%20nibh,%20sit%20amet%20rhoncus%20lacus.%20Maecenas%20eu%20dolor%20augue.%20Cras%20gravida%20eget%20nibh%20a%20consequat.%20Nam%20vehicula%20felis%20dui,%20eu%20aliquet%20sem%20sodales%20in.%0D%0A%0D%0AEtiam%20elementum%20magna%20in%20porttitor%20maximus.%20Aliquam%20malesuada%20velit%20a%20odio%20rutrum,%20in%20mattis%20sem%20semper.%20Nam%20dapibus%20eget%20odio%20vitae%20volutpat.%20Ut%20sagittis%20vitae%20risus%20id%20luctus.%20Phasellus%20viverra%20urna%20eu%20vehicula%20volutpat.%20Integer%20in%20nulla%20faucibus%20nibh%20tincidunt%20eleifend.%20Sed%20risus%20est,%20convallis%20ac%20tellus%20sit%20amet,%20elementum%20consequat%20erat.&AuthorId=6&PostAuthor=BloggingEngine.DataAccess.Author&PostDate=2018-11-02&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment&Comments=BloggingEngine.DataAccess.PostComment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:17.5444||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:17.5679||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:20.6912||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:20.6989||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:28.3190||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:35:28.3221||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:35:28.3302||INFO|UrlFilter|Executing: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:28.3339||INFO|UrlFilter|Executed: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:31.5631||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:35:31.5639||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:35:31.5700||INFO|UrlFilter|Executing: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:31.5790||INFO|UrlFilter|Executed: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:42.2806||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:35:50.8943||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:52.2431||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:52.5576||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:52.5799||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:35:55.5591||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:35:55.5603||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:35:55.5631|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Blog_Post.ExecuteAsync() in /Users/codemaster/Documents/ASP/BloggingEngine/Views/Blog/Post.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:37:30.4610||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:37:35.7533||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:37:37.1543||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:37:37.4438||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:37:37.4656||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:37:39.7367||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:37:39.7408||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:37:39.7486||INFO|UrlFilter|Executing: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:37:39.7547||INFO|UrlFilter|Executed: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:38:44.6460||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:38:52.8221||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:38:54.1790||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:38:54.4764||INFO|UrlFilter|Executing: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:38:54.4986||INFO|UrlFilter|Executed: /blog/post/15 |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:38:57.4227||INFO|UrlFilter|Executing: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:38:57.4273||INFO|UrlFilter|Executed: /blog/post/15/comment |url: http://localhost/blog/post/15/comment|action: Comment
+2018-12-19 16:38:57.4384||INFO|UrlFilter|Executing: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:38:57.4463||INFO|UrlFilter|Executed: /blog/post/15?AuthorId=0&Comment=Comment |url: http://localhost/blog/post/15|action: Post
+2018-12-19 16:39:23.1468||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 16:39:28.2601||INFO|UrlFilter|Executing: / |url: http://localhost/|action: Index
+2018-12-19 16:39:28.2696||INFO|UrlFilter|Executed: / |url: http://localhost/|action: Index
+2018-12-19 16:39:29.3677||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:39:30.5472||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:39:31.7813||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:39:31.9232||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Edit
+2018-12-19 16:39:34.8835||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:39:34.8944||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:39:37.3717||INFO|UrlFilter|Executing: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:39:37.5558||INFO|UrlFilter|Executed: /blog/edit/31 |url: http://localhost/blog/edit/31|action: Update
+2018-12-19 16:39:37.5622||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:39:37.5655||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:39:48.4575||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 16:39:48.4824||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 16:39:50.3140||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:39:50.3171||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 16:56:38.6715|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "authors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_authors" PRIMARY KEY AUTOINCREMENT,
+    "FirstName" TEXT NULL,
+    "LastName" TEXT NULL
+); Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'table "authors" already exists'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)|url: |action: 
+2018-12-19 17:05:03.7915||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:05:08.2561||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:05:09.4045||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:05:11.1431||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:05:11.1623||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:05:31.7529||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:05:32.0721||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:05:32.0792||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:05:32.0970||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:05:33.4852||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Edit
+2018-12-19 17:05:33.6080||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Edit
+2018-12-19 17:05:35.7390||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:05:35.7451||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:05:40.5861||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:05:40.6122||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:05:40.6191||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:05:40.6229||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:06:08.5652||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Delete
+2018-12-19 17:06:08.5878||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Delete
+2018-12-19 17:06:08.5961||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:06:08.5999||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:06:10.1301||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:06:10.1331||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:06:12.0689||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:06:12.0719||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:06:20.3979||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:06:20.4029||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:06:20.4099||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:06:20.4132||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:06:21.8908||INFO|UrlFilter|Executing: /blog/post/2 |url: http://localhost/blog/post/2|action: Post
+2018-12-19 17:06:21.9348||INFO|UrlFilter|Executed: /blog/post/2 |url: http://localhost/blog/post/2|action: Post
+2018-12-19 17:06:27.8201||INFO|UrlFilter|Executing: /blog/post/2/comment |url: http://localhost/blog/post/2/comment|action: Comment
+2018-12-19 17:06:27.8214||INFO|UrlFilter|Executed: /blog/post/2/comment |url: http://localhost/blog/post/2/comment|action: Comment
+2018-12-19 17:06:27.8289||INFO|UrlFilter|Executing: /blog/post/2 |url: http://localhost/blog/post/2|action: Post
+2018-12-19 17:06:27.8360||INFO|UrlFilter|Executed: /blog/post/2 |url: http://localhost/blog/post/2|action: Post
+2018-12-19 17:08:26.5253||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:08:31.0862||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:08:32.1801||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:08:34.0342||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:08:34.0567||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:08:51.9827||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:08:52.3029||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:08:52.3108||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:08:52.3287||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:08:53.6580||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Edit
+2018-12-19 17:08:53.7869||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Edit
+2018-12-19 17:09:01.9835||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:09:02.0077||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:09:02.0133||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:09:02.0166||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:09:03.1235||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Edit
+2018-12-19 17:09:03.1265||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Edit
+2018-12-19 17:09:04.0138||INFO|UrlFilter|Executing: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:09:04.0190||INFO|UrlFilter|Executed: /blog/edit/1 |url: http://localhost/blog/edit/1|action: Update
+2018-12-19 17:09:04.0234||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:09:04.0274||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:09:04.6744||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:09:04.7097||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:09:07.2387||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:09:07.2405||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:09:07.2464||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:09:07.2546||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:09:09.8066||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:09:09.8155||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:09:11.3149||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:09:11.3174||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:10:05.6599||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:10:09.7993||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:10:11.0368||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:10:13.4059||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:10:13.6201||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:10:16.7218||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:10:16.7253||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:10:16.7333||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:10:16.7454||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:10:19.7336||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:10:19.7433||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:10:21.9125||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:10:21.9132||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:10:21.9215||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:10:21.9242||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:13:11.1387||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:13:15.3922||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:13:16.7639||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:13:19.2204||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:13:19.2237||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:13:19.2336||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:13:19.2609||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:13:20.2837||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:13:20.2986||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:13:23.0061||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:13:23.0077||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:13:23.0139||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:13:23.0178||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:13:24.0472||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:13:24.0528||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:35.9527||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:15:44.7223||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:46.0839||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:48.6405||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:15:48.6443||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:15:48.6543||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:48.6747||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:52.4060||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:15:52.4065||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:15:52.4119||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:52.4184||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:55.9229||INFO|UrlFilter|Executing: / |url: http://localhost/|action: Index
+2018-12-19 17:15:55.9265||INFO|UrlFilter|Executed: / |url: http://localhost/|action: Index
+2018-12-19 17:15:57.1493||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:15:57.1747||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:15:58.9744||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:15:58.9802||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:21:02.5401||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:21:08.7946||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:21:09.9068||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:21:15.3495||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:21:15.3653||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:21:34.9868||INFO|UrlFilter|Executing: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:21:35.3019||INFO|UrlFilter|Executed: /blog/create |url: http://localhost/blog/create|action: Create
+2018-12-19 17:21:35.3082||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:21:35.3262||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:21:37.0631||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:21:37.2147||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:21:41.9038||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:21:41.9066||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:21:41.9136||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:21:41.9174||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:21:44.7087||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:21:44.7163||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:33.1321||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:22:41.1715||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:22:42.3730||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:22:42.6389||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:22:42.6546||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:22:44.2124||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:44.4063||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:47.0566||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:22:47.2543||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:22:47.2612||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:47.2811||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:52.5927||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:22:52.5991||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:22:52.6055||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:52.6154||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:55.8029||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:22:55.8083||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:22:55.8141||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:55.8213||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:59.4185||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:22:59.4242||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:23:53.6512||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:24:00.3134||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:24:01.7310||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:24:08.2180||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:24:08.2218||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:24:08.2311||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:24:08.2681||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:24:09.8485||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:24:09.8649||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:25:00.9168||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:25:11.2102||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:25:12.6900||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:25:15.3253||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:25:15.3281||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:25:15.3359||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:25:15.3669||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:25:16.7946||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:25:16.8097||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:25:39.8994||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:26:09.2810||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:26:10.6875||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:26:14.2310||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:26:14.2346||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:26:14.2449||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:26:14.2818||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:26:40.2359||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:26:40.2444||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:26:50.1780||DEBUG|BloggingEngine.Program|init main |url: |action: 
+2018-12-19 17:26:51.2322||INFO|UrlFilter|Executing: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:26:52.7244||INFO|UrlFilter|Executed: /blog |url: http://localhost/blog|action: Index
+2018-12-19 17:26:55.0097||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:26:55.2315||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:26:59.0664||INFO|UrlFilter|Executing: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:26:59.2724||INFO|UrlFilter|Executed: /blog/post/1/comment |url: http://localhost/blog/post/1/comment|action: Comment
+2018-12-19 17:26:59.2807||INFO|UrlFilter|Executing: /blog/post/1 |url: http://localhost/blog/post/1|action: Post
+2018-12-19 17:26:59.2956||INFO|UrlFilter|Executed: /blog/post/1 |url: http://localhost/blog/post/1|action: Post

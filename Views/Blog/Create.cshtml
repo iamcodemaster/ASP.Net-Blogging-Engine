@@ -43,6 +43,7 @@
       <span asp-validation-for="@Model.Author.LastName" class="text-danger"></span>
     </div>
   </div>
+  <span asp-validation-for="@Model.Author" class="text-danger"></span>
   <div class="form-group">
     <label for="title">Post Title</label>
     <input asp-for="@Model.Post.PostTitle" class="form-control" id="title" placeholder="The post title">

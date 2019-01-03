@@ -6,10 +6,16 @@ using BloggingEngine.DataAccess;
 public class BlogPostModel
 {  
     public int Id { get; set; }
+    [Required(ErrorMessage = "Title field can not be empty")]
+
     public string PostTitle { get; set; }
+    [Required(ErrorMessage = "Content field can not be empty")]
+
     public string PostContent { get; set; }
     public int AuthorId { get; set; }
     public Author PostAuthor { get; set; }
+    [Required(ErrorMessage = "Date field can not be empty")]
+
     public string PostDate { get; set; }
     public List<PostComment> Comments { get; set; }
     public Comment Comment { get; set; }

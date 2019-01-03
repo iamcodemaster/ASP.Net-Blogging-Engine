@@ -44,51 +44,64 @@ namespace BloggingEngine.Controllers
         [UrlFilter]
         [Route("blog/create")]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(PostWithAuthor item) {
-            // If author exists
-            if(item.Author.Id != -1) {
-                // Create new blog post with existing author
-                var post = new BloggingEngine.DataAccess.Post() {
-                    PostTitle = item.Post.PostTitle,
-                    PostContent = item.Post.PostContent,
-                    AuthorId = item.Author.Id,
-                    PostDate = item.Post.PostDate
-                };    
-                // Add blog post to database
-                _postContext.Posts.Add(post);
-                _postContext.SaveChanges();
 
-            // If author does not exist
-            } else {
-                // Create new author
-                var author = new BloggingEngine.DataAccess.Author() {
-                    FirstName = item.Author.FirstName,
-                    LastName = item.Author.LastName
-                };
-                // Add author to database
-                _postContext.Authors.Add(author);
-                _postContext.SaveChanges();
-                // Get the id of the last added record
-                var lastAddedAuthorId = author.Id;
-                // Create new blog post
-                var post = new BloggingEngine.DataAccess.Post() {
-                    PostTitle = item.Post.PostTitle,
-                    PostContent = item.Post.PostContent,
-                    AuthorId = lastAddedAuthorId,
-                    PostDate = item.Post.PostDate
-                };
-                // Add blog post to database
-                _postContext.Posts.Add(post);
-                _postContext.SaveChanges();
+            // Validate form
+            if (ModelState.IsValid) {
+                // If author exists
+                if(item.Author.Id != -1) {
+                    // Create new blog post with existing author
+                    var post = new BloggingEngine.DataAccess.Post() {
+                        PostTitle = item.Post.PostTitle,
+                        PostContent = item.Post.PostContent,
+                        AuthorId = item.Author.Id,
+                        PostDate = item.Post.PostDate
+                    };    
+                    // Add blog post to database
+                    _postContext.Posts.Add(post);
+                    _postContext.SaveChanges();
+
+                // If author does not exist
+                } else {
+                    // Create new author
+                    var author = new BloggingEngine.DataAccess.Author() {
+                        FirstName = item.Author.FirstName,
+                        LastName = item.Author.LastName
+                    };
+                    // Add author to database
+                    _postContext.Authors.Add(author);
+                    _postContext.SaveChanges();
+                    // Get the id of the last added record
+                    var lastAddedAuthorId = author.Id;
+                    // Create new blog post
+                    var post = new BloggingEngine.DataAccess.Post() {
+                        PostTitle = item.Post.PostTitle,
+                        PostContent = item.Post.PostContent,
+                        AuthorId = lastAddedAuthorId,
+                        PostDate = item.Post.PostDate
+                    };
+                    // Add blog post to database
+                    _postContext.Posts.Add(post);
+                    _postContext.SaveChanges();
+                }
+                return RedirectToAction("Index");
             }
-            
-            return RedirectToAction("Index");
+
+            // Recreate the post to show validation message (didn't find any other way, sorry)
+            var authors = _postContext.Authors.ToList();
+            var blogpostWithAuthor = new PostWithAuthor() {
+                AuthorList = authors
+            };
+            item = blogpostWithAuthor;
+            return View("Create", item);
         }
 
         [UrlFilter]
         [Route("blog/post/{id}")]
         [HttpGet()]
         public IActionResult Post([FromRoute]int id) {
+            // Redirect to index if no post found
             // get the post by id from query param
             var post = _postContext.Posts.Find(id);
             // send user back to index if post does not exist
@@ -140,21 +153,50 @@ namespace BloggingEngine.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Comment([FromRoute] int id, BlogPostModel item) {
-            var comment = new BloggingEngine.DataAccess.PostComment() {
-                CommentAuthor = item.Comment.CommentAuthor,
-                CommentContent = item.Comment.CommentContent,
-                PostId = id
+            // Validate Form
+            ModelState.Remove("PostTitle");
+            ModelState.Remove("PostContent");
+            ModelState.Remove("PostDate");
+            if (ModelState.IsValid) {
+                var comment = new BloggingEngine.DataAccess.PostComment() {
+                    CommentAuthor = item.Comment.CommentAuthor,
+                    CommentContent = item.Comment.CommentContent,
+                    PostId = id
+                };
+                _postContext.Comments.Add(comment);
+                _postContext.SaveChanges();
+
+                return RedirectToAction("Post");
+            }
+
+            // Recreate the post to show validation message (didn't find any other way, sorry)
+            var post = _postContext.Posts.Find(id);
+            var author = _postContext.Authors.Find(post.AuthorId); 
+            var postComments = _postContext.Comments.Where(c => c.PostId == post.Id);
+            var comments = postComments.ToList();
+            var authorModel = new Author() {
+                Id = author.Id,
+                FirstName = author.FirstName,
+                LastName = author.LastName
             };
-            _postContext.Comments.Add(comment);
-            _postContext.SaveChanges();
-            return RedirectToAction("Post");
-            
+            var blogpostModel = new BlogPostModel() {
+                Id = post.Id,
+                PostTitle = post.PostTitle,
+                PostContent = post.PostContent,
+                AuthorId = post.AuthorId,
+                PostAuthor = authorModel,
+                PostDate = post.PostDate,
+                Comments = comments
+            };
+            item = blogpostModel;
+            return View("Post", item);
         }
         
         [UrlFilter]
         [Route("blog/edit/{id}")]
         [HttpGet()]
         public IActionResult Edit([FromRoute] int id) {
+            // Redirect to index if no post found
             var post = _postContext.Posts.Find(id);
             if (post == null)
             {
@@ -177,11 +219,14 @@ namespace BloggingEngine.Controllers
         [HttpPost()]
         [ValidateAntiForgeryToken]
         public IActionResult Update([FromRoute] int id, BlogPostModel item) {
+            // Redirect to index if no post found
             var post = _postContext.Posts.Find(id);
             if (post == null)
             {
                 return RedirectToAction("Index");
             }
+
+            // Validate Form
             if (ModelState.IsValid) {
                 post.PostTitle = item.PostTitle;
                 post.PostContent = item.PostContent;
@@ -191,7 +236,6 @@ namespace BloggingEngine.Controllers
                 _postContext.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             return View("Edit", item);
         }
     }

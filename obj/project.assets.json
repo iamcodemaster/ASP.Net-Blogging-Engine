@@ -11941,11 +11941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/codemaster/Documents/ASP/BloggingEngine/BloggingEngine.csproj",
+      "projectUniqueName": "/Users/codemaster/Documents/School/ASP.NET/BloggingEngine/BloggingEngine.csproj",
       "projectName": "BloggingEngine",
-      "projectPath": "/Users/codemaster/Documents/ASP/BloggingEngine/BloggingEngine.csproj",
+      "projectPath": "/Users/codemaster/Documents/School/ASP.NET/BloggingEngine/BloggingEngine.csproj",
       "packagesPath": "/Users/codemaster/.nuget/packages/",
-      "outputPath": "/Users/codemaster/Documents/ASP/BloggingEngine/obj/",
+      "outputPath": "/Users/codemaster/Documents/School/ASP.NET/BloggingEngine/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
